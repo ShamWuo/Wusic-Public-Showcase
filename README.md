@@ -12,25 +12,31 @@ Wusic is a modern, AI-enhanced music practice application designed to help music
 
 ## 🚀 Key Features
 
-### 🎧 Smart Practice Session
-- **Integrated Tools**: Metronome (visual & audio), Tuner, and Audio Recorder all in one screen.
-- **Distraction-Free Mode**: Minimalist interface to keep you focused on the music.
-- **Session Tracking**: Automatically logs practice duration, sentiment, and struggle areas.
+### 🎓 Teacher & Student Connectivity
+*Empower music education with direct feedback loops.*
+- **Teacher Portal**: Teachers can invite students, view their practice logs, and monitor consistency.
+- **Assignments**: Assign specific repertoire or techniques with due dates and instructions.
+- **Feedback System**: Teachers can grade assignments and leave detailed feedback on student progress.
 
-### 🤖 AI Coach (Maestro)
-- **Practice Plans**: Generates custom practice routines based on your recent sessions and goals.
-- **Vitality Score**: A 7-day rolling metric of your musical consistency.
-- **Smart Feedback**: Analyzes your practice habits to suggest technical improvements.
-- **Tiered Models**: Powered by Gemini 2.0 Flash (Free) and Gemini 2.5 Flash (Pro).
+### 🎧 Smart Practice Environment
+- **All-in-One Tools**: Integrated visual metronome, real-time chromatic tuner, and high-fidelity audio recorder.
+- **Distraction-Free Mode**: Minimalist interface designed to keep focus on the instrument, not the screen.
+- **Background Timer**: Tracks practice duration even when the phone is locked.
 
-### 🎼 Repertoire Management
-- **Piece Library**: Organize pieces by composer, status (Active, Maintenance, Learned), and difficulty.
-- **Technique Tracker**: dedicated section for scales, arpeggios, and etudes.
-- **Quick Focus**: "Pin" active pieces to your home screen for instant access.
+### 🤖 Maestro AI Coach
+- **Adaptive Planning**: Generates custom daily practice routines based on your goals and recent struggle areas.
+- **Vitality Score**: A proprietary 7-day rolling metric that quantifies your musical consistency.
+- **Smart Analytics**: AI analyzes your session logs to suggest specific technical focus areas (e.g., "Focus on rhythm in Bar 42").
+- **Tiered Intelligence**: Powered by Gemini 2.0 Flash (Free) and Gemini 2.5 Flash (Pro).
 
-### 📊 Analytics & Insights
-- **Heatmaps**: GitHub-style practice streaks to visualize consistency.
-- **Progress Charts**: Track specific metrics over time (BPM, accuracy, time spent).
+### 🎼 Repertoire & Library
+- **Smart Organization**: Categorize music by Status (New, Active, Mastered) and Composer.
+- **Technique Tracker**: Dedicated module for scales, arpeggios, and Hanon exercises.
+- **Quick Focus Pinboard**: Keep your current pieces one tap away on the home screen.
+
+### 📊 Professional Analytics
+- **Practice Heatmaps**: Visualize your consistency with GitHub-style contribution graphs.
+- **Trend Analysis**: Track practice volume, BPM progress, and session sentiment over time.
 
 ---
 
@@ -48,7 +54,7 @@ Built with a focus on performance, offline-first reliability, and smooth UX.
 
 ---
 
-## 🏗️ Architecture Architecture
+## 🏗️ System Architecture
 
 ### Offline-First Design
 Wusic is designed to work fully offline. All practice data, recordings, and statistics are stored locally on the device using SQLite. Syncing occurs opportunistically when online to back up data or fetch new AI insights.
@@ -62,6 +68,6 @@ To reduce API costs and latency, the app implements a robust caching strategy fo
 
 | Screen 1 | Screen 2 |
 |:---:|:---:|
-| ![Page 2](images/Page2.PNG) | ![Piece Details](images/piecedetails.PNG) |
+| ![Home / Page 2](images/Page2.PNG) | ![Piece Details](images/piecedetails.PNG) |
 
 ---
