@@ -1,4 +1,4 @@
-# Wusic - Smart Music Practice Companion
+# Prasic - Smart Music Practice Companion
 
 <div align="center">
   <img src="https://via.placeholder.com/150" alt="Wusic Logo" width="120" />

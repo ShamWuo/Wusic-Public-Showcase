@@ -1,7 +1,7 @@
 # System Architecture
 
 ## Overview
-Wusic follows a **Local-First**, **Service-Oriented** architecture. The application is built on React Native (Expo) and utilizes a modular design to ensure maintainability and scalability.
+Prasic follows a **Local-First**, **Service-Oriented** architecture. The application is built on React Native (Expo) and utilizes a modular design to ensure maintainability and scalability.
 
 ## Core Layers
 
